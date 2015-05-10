@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/pp4">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:text="Geo Reminder is an Android application which reminds based on the set location, the purpose is creating a reminder specifying what need to be reminded and where you want to be reminded, once we get near the place specified, then the application will notify the user through a pop up message, also a text message (SMS) will be sent to any specified phone number."
+        android:id="@+id/textView5"
+        android:textColor="#ff9e000b"
+        android:textStyle="bold|italic"
+        android:layout_weight="0.05"
+        android:singleLine="false"
+        android:textAlignment="center"
+        android:layout_margin="50dp"
+        android:background="@drawable/round_corner_grey"
+        android:padding="10dp" />
+</LinearLayout>

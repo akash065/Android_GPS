@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.13"
+        android:background="@drawable/round_corner_grey"
+        android:paddingLeft="3dp"
+        android:paddingTop="3dp"
+        android:paddingRight="3dp"
+        android:paddingBottom="3dp"
+        android:layout_margin="3dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/relativeLayout"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large Text"
+                android:id="@+id/textView6"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:paddingLeft="4dp"
+                android:paddingTop="4dp"
+                android:paddingRight="2dp"
+                android:paddingBottom="2dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/round_corner_text"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:id="@+id/textView8"
+                android:layout_below="@+id/textView6"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:paddingLeft="4dp"
+                android:paddingTop="2dp"
+                android:background="@drawable/round_corner_text"
+                android:paddingBottom="2dp"
+                android:layout_margin="4dp"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+</LinearLayout>
